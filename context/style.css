@@ -19,34 +19,23 @@ a:visited{
 	max-width: 1260;
 	max-height: 780;
 	margin:0px auto;
+
+}
+.content{
 	background:#fff;
 	box-shadow:0px 1px 10px rgba(0,0,0,.9);
 }
 a{
 	text-decoration:none;
 }
-.sonypro{
+.cbody{
 	padding:20px 0px ;
 	overflow-y: auto;
 	clear:both;
+	background:#fff;
 }
 
-.right{
-	float:left;
-	width:50%;
-	
-}
-.fhead{
-	font: bold 12px Verdana;
-}
-.right{
-	float:left;
-	width:50%;
-	
-	
-}
 .header{	
-	background:#009BC2;
 	color:#fff;
 	height:60px;
 	font-family:Georgia;
@@ -54,10 +43,7 @@ a{
 	padding-top:20px;
 	padding-left:10px;
 }
-.ftext{
-	font: normal 14px AmbleRegular, Arial, Helvetica, sans-serif;
-	padding:0px 50px;
-}
+
 input[type="submit"]{
 	margin-top:10px;
 	border:0px inset #fff;
