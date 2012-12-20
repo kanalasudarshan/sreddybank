@@ -24,6 +24,8 @@ a:visited{
 .content{
 	background:#fff;
 	box-shadow:0px 1px 10px rgba(0,0,0,.9);
+	overflow:hidden;
+	margin-top:10px;
 }
 a{
 	text-decoration:none;
@@ -42,6 +44,7 @@ a{
 	font-size:30px;
 	padding-top:20px;
 	padding-left:10px;
+	margin-bottom:10px;
 }
 
 input[type="submit"]{
@@ -105,27 +108,26 @@ input[type="password"]{
 	list-style:none;
 	font: normal 12px Verdana;
 	margin-top:0px;
-	padding-left:0px;
 	position: absolute;
 	width:900px;
-	
 }
 .menu li ul{
 	display:none;
 	padding:0px;
-
+	margin-top:10px;
+	padding-left:0px;
+	overflow:hidden;
 }
 .menu li ul li{
-	margin-top:10px;
 	//border-top-right-radius:2px;
 	//border-bottom-right-radius:20px;
 	clear:both;
-	width:80px;
+	width:100px;
+	padding:5px 0px 5px 0px;
+	border-bottom:2px solid #1b548e;
 }
 .menu li ul li:hover{
-	background:#434;
-	//border-top-right-radius:20px;
-	//border-bottom-right-radius:2px;
+	padding:5px 0px 5px 0px;
 }
 .menu li:hover ul{
 	display:block;
@@ -135,24 +137,25 @@ input[type="password"]{
 	font: normal 13px Verdana;
 	float:left;
 	width:100px;
-	padding:5px 20px 5px 20px;
-	background:#1b548e;
+	padding:5px 0px 5px 0px;
+	background:#2672ec;
 	color:#fff;
+	border-right:2px solid #1b548e;
 	//box-shadow: 0 1px 10px rgba(0,0,0,0.9);
 }
 .menu li:hover {
-	background:#009BC2;
-	
+	background:#fff;
+	color:#000;
 }
 
 .vbar{
-	width:100%;
-	float:left;
+	display:block;
+	border-radius:10px;
+	margin:0px auto;
 	height:25px;
-	margin-bottom:20px;
-	background:#1b548e;
 	overflow:hidden;
-	box-shadow:0px 1px 0px rgba(0,0,0,.9);
+	text-align:center;
+	background:#2672ec;
 }
 
 
